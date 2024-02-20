@@ -1,10 +1,7 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/rgb.h>
 
 / {
-    
     keymap {
         compatible = "zmk,keymap";
 
@@ -16,13 +13,22 @@
             //                               |   GUI   |   DEL   | RETURN  |  SPACE  |                      |  SPACE  |   TAB   |   BSPC  |  R ALT  |
 
             bindings = <
-&kp TAB         &kp SPACE  &kp W  &kp E  &kp R  &kp T                   &kp Y   &kp U  &kp I      &kp O    &kp P     &kp LBKT
-&kp LEFT_SHIFT  &kp A      &kp S  &kp D  &kp F  &kp G                   &kp H   &kp J  &kp K      &kp L    &kp SEMI  &kp APOS
-&kp LCTRL       &kp Z      &kp X  &kp C  &kp V  &kp B                   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BSPC
-                                  &mo 3  &mo 2  &mo 1  &kp N    &kp N   &tog 4  &mo 5  &mo 6
+&kp TAB         &kp SPACE  &kp W  &kp E  &kp R  &kp T                &kp Y   &kp U  &kp I      &kp O    &kp P     &kp LBKT
+&kp LEFT_SHIFT  &kp A      &kp S  &kp D  &kp F  &kp G                &kp H   &kp J  &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LCTRL       &kp Z      &kp X  &kp C  &kp V  &kp B                &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp BSPC
+                                  &mo 3  &mo 2  &mo 1  &kp N  &kp N  &tog 4  &mo 5  &mo 6
             >;
 
             label = "ZERO";
+        };
+
+        layer_1 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
