@@ -1,7 +1,9 @@
-if SHIELD_CHOLIBRI_LEFT
+if SHIELD_CHOLIBRI_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Cholibri"
+
+
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
