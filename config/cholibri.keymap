@@ -1,4 +1,4 @@
-//#include "keys_se_finland_sweden.h"
+#include "keys_se_finland_sweden.h"
 
 
 #include <behaviors.dtsi>
