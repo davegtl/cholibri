@@ -4,8 +4,12 @@ name: Cholibri
 type: shield
 url: https://github.com/
 requires: [pro_micro]
-exposes:
-  - i2c_glidepoint
 features:
   - keys
   - encoder
+  - pointer
+exposes:
+  - i2c_glidepoint
+siblings:
+  - cholibri_left
+  - cholibri_right
