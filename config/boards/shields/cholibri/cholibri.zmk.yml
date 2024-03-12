@@ -8,6 +8,7 @@ exposes: [i2c_oled]
 features:
   - keys
   - display
+  - i2c_glidepoint
 siblings:
   - corne_left
   - corne_right
