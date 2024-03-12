@@ -26,9 +26,9 @@
         status = "okay";
         dr-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH)>;
 
-        sensitivity = "4x";
+        sensitivity = "2x";
         sleep;
-        no-taps;
+//      no-taps;
     };
 
     // Rotation config, from Pete
@@ -39,9 +39,9 @@
     
         cirque_config {
             device = <&glidepoint>;
-            xy-swap;
+//          xy-swap;
             y-invert;
-            x-invert;
+//          x-invert;
         };
     };
 };
