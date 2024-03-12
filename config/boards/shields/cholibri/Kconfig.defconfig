@@ -15,4 +15,5 @@ config ZMK_SPLIT
 
 endif
 
-
+config I2C
+    default y
