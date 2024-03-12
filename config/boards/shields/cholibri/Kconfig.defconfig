@@ -13,6 +13,6 @@ if SHIELD_CHOLIBRI_LEFT || SHIELD_CHOLIBRI_RIGHT
 config ZMK_SPLIT
     default y
 
-if ZMK_DISPLAY
+endif
 
 
