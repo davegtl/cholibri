@@ -1,4 +1,4 @@
-#include "keys_se_finland_sweden.h"
+#include "keys_se.h"
 
 
 #include <behaviors.dtsi>
@@ -38,6 +38,8 @@
 &kp SE_LESS_THAN    &kp SE_GREATER_THAN           &kp RA(NUMBER_2)  &kp RA(N3)        &kp RA(N4)        &kp RA(N5)  &kp RA(N6)  &kp RA(N7)  &kp RA(N8)  &kp RA(N9)  &kp RA(N0)  &kt BSLH
                             &trans            &trans            &trans            &trans      &trans      &trans      &trans      &trans
             >;
+
+            label = "NUMB";
         };
 
         NAV {
@@ -47,6 +49,8 @@
 &trans  &trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                   &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            label = "MOVE";
         };
 
         FUNC {
@@ -56,6 +60,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans   &kp F12
                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
+            label = "FUNC";
         };
 
         CONF {
@@ -65,6 +70,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
+            label = "CONF";
         };
     };
 };
