@@ -18,8 +18,8 @@
 
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp E  &kp R  &kp T      &kp Y      &kp U   &kp I      &kp O    &kp P            &kp SE_A_RING
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G      &kp H      &kp J   &kp K      &kp L    &kp SE_O_UMLAUT  &kp SE_A_UMLAUT
-&kp LCTRL       &kp Z  &kp X  &kp C  &kp V  &kp B      &kp N      &kp M   &kp COMMA  &kp DOT  &kp SE_MINUS     &kp BSPC
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F  &kp G      &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL       &kp Z  &kp X  &kp C  &kp V  &kp B      &kp N      &kp M   &kp SE_COMMA  &kp SE_DOT  &kp SE_MINUS     &kp BSPC
                        &mo 3  &mo 2  &mo 1  &kp SPACE  &kp ENTER  &tog 4  &mo 5      &mo 6
             >;
 
@@ -28,9 +28,9 @@
 
         NUM {
             bindings = <
-&kp ESC           &kp LS(NUMBER_1)     &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &kp SE_QMARK
-&kp SE_PIPE       &kp N1               &kp N2            &kp N3            &kp N4            &kp N5      &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &trans
-&kp SE_LESS_THAN  &kp SE_GREATER_THAN  &kp RA(NUMBER_2)  &kp RA(N3)        &kp RA(N4)        &kp RA(N5)  &kp RA(N6)  &kp RA(N7)  &kp RA(N8)  &kp RA(N9)  &kp RA(N0)  &kt BSLH
+&kp ESC           &kp LS(SE_N1)     &kp LS(SE_N2)  &kp LS(SE_N3)  &kp LS(SE_N4)  &kp LS(SE_N5)  &kp LS(SE_N6)  &kp LS(SE_N7)  &kp LS(SE_N8)  &kp LS(SE_N9)  &kp LS(SE_N0)  &kp SE_QMARK
+&kp SE_PIPE       &kp SE_N1               &kp SE_N2            &kp SE_N3            &kp SE_N4            &kp SE_N5      &kp SE_N6      &kp SE_N7      &kp SE_N8      &kp SE_N9      &kp SE_N0      &trans
+&kp SE_LESS_THAN  &kp SE_GREATER_THAN  &kp RA(SE_N2)  &kp RA(NSE_N3)        &kp RA(SE_N4)        &kp RA(SE_N5)  &kp RA(SE_N6)  &kp RA(SE_N7)  &kp RA(SE_N8)  &kp RA(SE_N9)  &kp RA(SE_N0)  &kt BSLH
                                        &trans            &trans            &trans            &trans      &trans      &trans      &trans      &trans
             >;
 
