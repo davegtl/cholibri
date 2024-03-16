@@ -37,14 +37,14 @@ RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4) RC(2,5)                  RC(2,6) RC(2,7)
 };
 
 &pro_micro_i2c {
-    status = "okey";                            //test with okey instead of disabled
+    status = "disabled";                            
     glidepoint: glidepoint@2a {
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
         status = "disabled";
         dr-gpios = <&gpio0 8 (GPIO_ACTIVE_HIGH)>;
 
-        sensitivity = "4x";
+        sensitivity = "2x";
         // sleep;
         no-taps;
     };
