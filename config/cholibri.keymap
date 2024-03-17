@@ -3,7 +3,6 @@
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include "combos.dtsi"
 
 
 / {
