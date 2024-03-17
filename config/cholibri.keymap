@@ -42,7 +42,7 @@
 
         NUM {
             bindings = <
-&swapper           &kp LS(SE_N1)     &kp LS(SE_N2)  &kp LS(SE_N3)  &kp LS(SE_N4)  &kp LS(SE_N5)  &kp LS(SE_N6)  &kp LS(SE_N7)  &kp LS(SE_N8)  &kp LS(SE_N9)  &kp LS(SE_N0)  &kp SE_QMARK
+&kp swapper           &kp LS(SE_N1)     &kp LS(SE_N2)  &kp LS(SE_N3)  &kp LS(SE_N4)  &kp LS(SE_N5)  &kp LS(SE_N6)  &kp LS(SE_N7)  &kp LS(SE_N8)  &kp LS(SE_N9)  &kp LS(SE_N0)  &kp SE_QMARK
 &kp SE_PIPE       &kp SE_N1               &kp SE_N2            &kp SE_N3            &kp SE_N4            &kp SE_N5      &kp SE_N6      &kp SE_N7      &kp SE_N8      &kp SE_N9      &kp SE_N0      &trans
 &kp SE_LESS_THAN  &kp SE_GREATER_THAN  &kp RA(SE_N2)  &kp RA(SE_N3)        &kp RA(SE_N4)        &kp RA(SE_N5)  &kp RA(SE_N6)  &kp RA(SE_N7)  &kp RA(SE_N8)  &kp RA(SE_N9)  &kp RA(SE_N0)  &kt BSLH
                                        &trans            &trans            &trans            &trans      &trans      &trans      &trans      &trans
